@@ -37,7 +37,7 @@ PriorErdos206.lean is vendored unchanged from [plby/lean-proofs](https://github.
 
 The bad two-term arithmetic is due to [Kovač](https://arxiv.org/abs/2406.07218). The contribution here is its effective nested-interval use to specify one individual irrational, together with exact executable optimization and a checked full bridge to the original eventual-greediness property. External mathematical/public review has not been obtained.
 
-Publication links are recorded here after submission. Publication does not itself constitute external mathematical review or remote-verifier acceptance.
+Publication links are recorded here after submission. The Jig artifact is kernel-verified; public posting and machine verification do not themselves constitute external mathematical refereeing.
 
 - GitHub: https://github.com/coleski/erdos206
-- Jig: https://jig.so/p/409
+- Jig: https://jig.so/p/409 — closed for the explicit-example supplement by a green proof artifact against the pinned GitHub package

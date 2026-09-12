@@ -68,3 +68,9 @@ Kovač's bad two-term construction and the Del Vecchio/Aristotle formalization a
 The current problem page explicitly lists the example request as open. The documented current primary-paper, forum, Jig, and GitHub checks found no equivalent explicit construction. These are substantive prior-art checks, not a guarantee against all unpublished or unindexed work. SOURCE-NOVELTY-AUDIT.md states the coverage limits.
 
 No initial decimal expansion or practical runtime is claimed. Even the first stage uses an 11-term exact optimizer. Termination and the precision guarantee are proved; efficiency is not needed for the selected constructive question.
+
+## Public verification after this local record
+
+The package was published at https://github.com/coleski/erdos206 and filed as the specifically scoped explicit-example supplement at https://jig.so/p/409. Jig artifact `8a05a332-b9fa-44de-987f-aa632a90417c` independently verified commit `1221dd62f4a861957639d4ffdf1d9258ce96daad` as green on 2026-09-12. Its verifier built all nine submitted modules, checked the exact bridge to `Statements.Erdos206ExplicitWitness.statement`, passed static-policy, provenance, no-new-axiom, and axiom checks, and reported only `Classical.choice`, `Quot.sound`, and `propext`. The recorded run is https://github.com/WoshuaJolk/jig-verifier/actions/runs/34699596095.
+
+This public result is scoped to the explicit-example supplement. It is not a claim to newly prove Kovač's almost-everywhere theorem, the Kovač–Tang rational theorem, a closed form, or an efficient digit algorithm. Jig verification is independent machine checking, not external mathematical refereeing or community acceptance of the chosen constructive meaning of “explicit.”
