@@ -101,7 +101,6 @@ theorem step_bounds (s M : ℕ) (L q z U : ℚ)
   unfold stepLower stepUpper
   refine ⟨hi, hM, ?_, ?_, ?_, hzU, ?_, ?_, ?_, hd, ?_, ?_⟩ <;> linarith
 
-#eval stepIndex 1 10 (1/3) (3/8)
 #print axioms step_bounds
 
 end Erdos206.EgyptianFractions

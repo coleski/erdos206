@@ -68,8 +68,6 @@ def optimize : ℕ → ℕ → ℚ → Finset ℕ
       (fun a => insert a (optimize n a (z - 1 / (a : ℚ))))
     pick S candidates
 
-#eval optimize 2 0 (11/24)
-
 theorem qsum_nonneg (S : Finset ℕ) : 0 ≤ qsum S := by
   apply Finset.sum_nonneg
   intro a ha

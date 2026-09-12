@@ -27,7 +27,7 @@ The final result in BOTH fresh builds was:
 Build completed successfully (8715 jobs).
 ```
 
-No `sorryAx`, custom unproved axiom, unresolved placeholder, or unchecked computational inference occurs in the final theorem's transitive dependencies. The two small `#eval` outputs in supporting files are sanity checks only; their results are not used as proof premises. Global optimizer correctness and all interval facts have ordinary checked proofs.
+No `sorryAx`, custom unproved axiom, unresolved placeholder, or unchecked computational inference occurs in the final theorem's transitive dependencies. Two small `#eval` sanity checks present during the original audit were not proof premises and were removed from the publication source to satisfy Jig's static submission policy. Global optimizer correctness and all interval facts have ordinary checked proofs.
 
 ## Pinned and trusted external components
 
@@ -51,10 +51,10 @@ The mathematical content of the audited PROOF.md has not changed after review; i
 
 ```text
 b2bed9fde71d4f4db51f6e2c79ea1ce8c2174ac51d99093aa345ea7460ec56f5  PriorErdos206.lean
-2b502182cc12109e48bc45978bf2cec558e8b52a1c335630d213db3f31c2ff80  RationalOptimizer.lean
+bb0c0cb75acea7cb7ec6d70de19a5d48d0a0c40d14eecc087c8856cef2fae643  RationalOptimizer.lean
 6efa856c3da651327b5d62eac90c406de2c5fcf6a30680f49ee741eaec7636ee  Density.lean
 ab552cbf23c6cca8107fdd0bb81f75546ed917f7d348b7a3bafceecd41d3447c  LocalObstruction.lean
-fe565576ee3f224c0d5c2e24f631899fd405172859c4355b9d904a0bac008a35  StepBounds.lean
+26116ca5d323455a18ed42ca763360b0c646db8d3ffe72d893bc680252757dbe  StepBounds.lean
 1dba70ff2f9e9019c4ebcf274d83a8a8259231e9e954942a8a432ce7e10a4700  NestedIntervals.lean
 a6b65ca80ff1f0c15486c596615a6f33e4acc09001afe7c590ed23c4733ce7a9  StageRecurrence.lean
 a02eb9801ff3f6efacb84cefc37be5761dea6b8cacdbcf167375d8b89e91b810  Erdos206Explicit.lean
