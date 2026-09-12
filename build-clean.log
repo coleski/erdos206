@@ -1,0 +1,59 @@
+ℹ [8706/8715] Built NestedIntervals (39s)
+info: NestedIntervals.lean:107:0: 'Erdos206.RationalNestedData.existsUnique_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NestedIntervals.lean:108:0: 'Erdos206.RationalNestedData.midpoint_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NestedIntervals.lean:109:0: 'Erdos206.RationalNestedData.limit_irrational' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8707/8715] Built PriorErdos206 (54s)
+info: PriorErdos206.lean:1982:0: 'Erdos206.EgyptianFractions.erdos_206' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8708/8715] Built Density (23s)
+ℹ [8709/8715] Built RationalOptimizer (24s)
+info: RationalOptimizer.lean:71:0: {4, 5}
+info: RationalOptimizer.lean:205:0: 'ExplicitEgyptian.optimize_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RationalOptimizer.lean:206:0: 'ExplicitEgyptian.optimize_isBestNTerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8710/8715] Built LocalObstruction (24s)
+info: LocalObstruction.lean:207:0: 'Erdos206.EgyptianFractions.explicit_pair_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LocalObstruction.lean:208:0: 'Erdos206.EgyptianFractions.explicit_interval_no_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LocalObstruction.lean:209:0: 'Erdos206.EgyptianFractions.not_eventuallyGreedy_of_bad_intervals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8711/8715] Built StepBounds (21s)
+info: StepBounds.lean:104:0: 125
+info: StepBounds.lean:105:0: 'Erdos206.EgyptianFractions.step_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8712/8715] Built StageRecurrence (18s)
+info: StageRecurrence.lean:203:0: 'ExplicitEgyptian.explicit_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StageRecurrence.lean:204:0: 'ExplicitEgyptian.approximate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8713/8715] Built Erdos206Explicit (17s)
+info: Erdos206Explicit.lean:23:0: theorem ExplicitEgyptian.erdos206_explicit_resolution : 1 / 4 < explicitNumber ∧
+  explicitNumber < 1 / 2 ∧
+    Irrational explicitNumber ∧
+      ¬Erdos206.EgyptianFractions.EventuallyGreedy explicitNumber ∧
+        ∀ (n : ℕ), |explicitNumber - ↑(approximate n)| ≤ (1 / 2) ^ n / 2 :=
+⟨explicitNumber_bounds.left,
+  ⟨explicitNumber_bounds.right, ⟨explicitNumber_irrational, ⟨explicitNumber_not_eventuallyGreedy, approximate_error⟩⟩⟩⟩
+info: Erdos206Explicit.lean:24:0: 'ExplicitEgyptian.erdos206_explicit_resolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8714/8715] Built AuditFinal (19s)
+info: AuditFinal.lean:3:0: theorem ExplicitEgyptian.erdos206_explicit_resolution : 1 / 4 < ExplicitEgyptian.explicitNumber ∧
+  ExplicitEgyptian.explicitNumber < 1 / 2 ∧
+    Irrational ExplicitEgyptian.explicitNumber ∧
+      ¬Erdos206.EgyptianFractions.EventuallyGreedy ExplicitEgyptian.explicitNumber ∧
+        ∀ (n : ℕ), |ExplicitEgyptian.explicitNumber - ↑(ExplicitEgyptian.approximate n)| ≤ (1 / 2) ^ n / 2 :=
+⟨ExplicitEgyptian.explicitNumber_bounds.left,
+  ⟨ExplicitEgyptian.explicitNumber_bounds.right,
+    ⟨ExplicitEgyptian.explicitNumber_irrational,
+      ⟨ExplicitEgyptian.explicitNumber_not_eventuallyGreedy, ExplicitEgyptian.approximate_error⟩⟩⟩⟩
+info: AuditFinal.lean:4:0: 'ExplicitEgyptian.erdos206_explicit_resolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinal.lean:6:0: theorem ExplicitEgyptian.explicit_example : 1 / 4 < ExplicitEgyptian.explicitNumber ∧
+  ExplicitEgyptian.explicitNumber < 1 / 2 ∧
+    Irrational ExplicitEgyptian.explicitNumber ∧
+      ¬Erdos206.EgyptianFractions.EventuallyGreedy ExplicitEgyptian.explicitNumber :=
+⟨ExplicitEgyptian.explicitNumber_bounds.left,
+  ⟨ExplicitEgyptian.explicitNumber_bounds.right,
+    ⟨ExplicitEgyptian.explicitNumber_irrational, ExplicitEgyptian.explicitNumber_not_eventuallyGreedy⟩⟩⟩
+info: AuditFinal.lean:7:0: def ExplicitEgyptian.explicitNumber : ℝ :=
+ExplicitEgyptian.nestedData.limit
+info: AuditFinal.lean:8:0: def ExplicitEgyptian.approximate : ℕ → ℚ :=
+fun n => ((ExplicitEgyptian.state (n + 1)).lower + (ExplicitEgyptian.state (n + 1)).upper) / 2
+info: AuditFinal.lean:9:0: 'ExplicitEgyptian.explicit_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinal.lean:10:0: 'ExplicitEgyptian.approximate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinal.lean:11:0: 'ExplicitEgyptian.explicitNumber_not_eventuallyGreedy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinal.lean:12:0: 'ExplicitEgyptian.explicitNumber_irrational' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8715 jobs).

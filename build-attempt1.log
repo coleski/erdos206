@@ -1,0 +1,20 @@
+✖ [2/4] Building Erdos206Explicit (213ms)
+trace: .> LEAN_PATH=/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/Cli/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/batteries/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/Qq/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/aesop/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/proofwidgets/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/importGraph/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/plausible/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/mathlib/.lake/build/lib/lean:/private/tmp/erdos206-clean-audit-fluyNL/.lake/build/lib/lean /Users/colebenefield/.elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /private/tmp/erdos206-clean-audit-fluyNL/Erdos206Explicit.lean -o /private/tmp/erdos206-clean-audit-fluyNL/.lake/build/lib/lean/Erdos206Explicit.olean -i /private/tmp/erdos206-clean-audit-fluyNL/.lake/build/lib/lean/Erdos206Explicit.ilean -c /private/tmp/erdos206-clean-audit-fluyNL/.lake/build/ir/Erdos206Explicit.c --setup /private/tmp/erdos206-clean-audit-fluyNL/.lake/build/ir/Erdos206Explicit.setup.json --json
+error: Erdos206Explicit.lean:1:0: unknown module prefix 'StageRecurrence'
+
+No directory 'StageRecurrence' or file 'StageRecurrence.olean' in the search path entries:
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/Cli/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/batteries/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/Qq/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/aesop/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/proofwidgets/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/importGraph/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/plausible/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/packages/mathlib/.lake/build/lib/lean
+/private/tmp/erdos206-clean-audit-fluyNL/.lake/build/lib/lean
+/Users/colebenefield/.elan/toolchains/leanprover--lean4---v4.33.0/lib/lean
+error: Lean exited with code 1
+Some required targets logged failures:
+- Erdos206Explicit
+error: build failed
