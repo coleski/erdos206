@@ -40,3 +40,4 @@ The bad two-term arithmetic is due to [Kovač](https://arxiv.org/abs/2406.07218)
 Publication links are recorded here after submission. Publication does not itself constitute external mathematical review or remote-verifier acceptance.
 
 - GitHub: https://github.com/coleski/erdos206
+- Jig: https://jig.so/p/409
